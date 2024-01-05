@@ -1,0 +1,248 @@
+2024-01-05 21:17:38,509 INFO    StreamThr :1819825 [internal.py:wandb_internal():86] W&B internal server running at pid: 1819825, started at: 2024-01-05 21:17:38.508630
+2024-01-05 21:17:38,513 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status
+2024-01-05 21:17:38,517 INFO    WriterThread:1819825 [datastore.py:open_for_write():85] open: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/run-1omti9lq.wandb
+2024-01-05 21:17:38,518 DEBUG   SenderThread:1819825 [sender.py:send():382] send: header
+2024-01-05 21:17:38,537 DEBUG   SenderThread:1819825 [sender.py:send():382] send: run
+2024-01-05 21:17:39,217 INFO    SenderThread:1819825 [dir_watcher.py:__init__():211] watching files in: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files
+2024-01-05 21:17:39,217 INFO    SenderThread:1819825 [sender.py:_start_run_threads():1136] run started: 1omti9lq with start time 1704460658.508174
+2024-01-05 21:17:39,233 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: check_version
+2024-01-05 21:17:39,234 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: check_version
+2024-01-05 21:17:39,473 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: run_start
+2024-01-05 21:17:39,507 DEBUG   HandlerThread:1819825 [system_info.py:__init__():32] System info init
+2024-01-05 21:17:39,507 DEBUG   HandlerThread:1819825 [system_info.py:__init__():47] System info init done
+2024-01-05 21:17:39,508 INFO    HandlerThread:1819825 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 21:17:39,508 INFO    SystemMonitor:1819825 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 21:17:39,509 INFO    HandlerThread:1819825 [system_monitor.py:probe():214] Collecting system info
+2024-01-05 21:17:39,510 INFO    SystemMonitor:1819825 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 21:17:39,511 INFO    SystemMonitor:1819825 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 21:17:39,513 INFO    SystemMonitor:1819825 [interfaces.py:start():190] Started gpu monitoring
+2024-01-05 21:17:39,514 INFO    SystemMonitor:1819825 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 21:17:39,516 INFO    SystemMonitor:1819825 [interfaces.py:start():190] Started network monitoring
+2024-01-05 21:17:39,557 DEBUG   HandlerThread:1819825 [system_info.py:probe():196] Probing system
+2024-01-05 21:17:39,567 DEBUG   HandlerThread:1819825 [system_info.py:_probe_git():181] Probing git
+2024-01-05 21:17:39,588 DEBUG   HandlerThread:1819825 [system_info.py:_probe_git():189] Probing git done
+2024-01-05 21:17:39,588 DEBUG   HandlerThread:1819825 [system_info.py:probe():244] Probing system done
+2024-01-05 21:17:39,588 DEBUG   HandlerThread:1819825 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-89-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-01-05T13:17:39.557568', 'startedAt': '2024-01-05T13:17:38.499417', 'docker': None, 'cuda': None, 'args': ('--load-from=fasterrcnn_pytorch_tmp1.pth', '--predict-to-file', '/home/stu5/ranshui/FasterRCNN/VOC/JPEGImages'), 'state': 'running', 'program': '-m pytorch.FasterRCNN.__main__', 'codePathLocal': None, 'git': {'remote': None, 'commit': '07c354928bb3f9dd9550ceea6b58fa1eee6de107'}, 'email': 'zhangjingze21@gmail', 'root': '/home/stu5/ranshui/FasterRCNN', 'host': 'bayesian', 'username': 'stu5', 'executable': '/home/stu5/anaconda3/envs/prml/bin/python', 'cpu_count': 18, 'cpu_count_logical': 36, 'cpu_freq': {'current': 2893.712111111111, 'min': 1200.0, 'max': 4633.333333333333}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 1309.755, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 1215.152, 'min': 1200.0, 'max': 4700.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4700.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4800.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4600.0}, {'current': 3000.0, 'min': 1200.0, 'max': 4800.0}], 'disk': {'/': {'total': 914.7823104858398, 'used': 427.43555068969727}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.47948455810547}}
+2024-01-05 21:17:39,588 INFO    HandlerThread:1819825 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-05 21:17:39,588 INFO    HandlerThread:1819825 [system_monitor.py:probe():227] Publishing system info
+2024-01-05 21:17:39,589 DEBUG   HandlerThread:1819825 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-05 21:17:39,589 DEBUG   HandlerThread:1819825 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-05 21:17:39,590 DEBUG   HandlerThread:1819825 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-05 21:17:40,221 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_created():271] file/dir created: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/conda-environment.yaml
+2024-01-05 21:17:40,222 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_created():271] file/dir created: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/requirements.txt
+2024-01-05 21:17:42,007 DEBUG   HandlerThread:1819825 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-05 21:17:42,008 INFO    HandlerThread:1819825 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-05 21:17:42,012 DEBUG   SenderThread:1819825 [sender.py:send():382] send: files
+2024-01-05 21:17:42,012 INFO    SenderThread:1819825 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-05 21:17:42,024 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 21:17:42,024 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 21:17:42,025 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 21:17:42,219 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/conda-environment.yaml
+2024-01-05 21:17:42,219 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_created():271] file/dir created: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/wandb-metadata.json
+2024-01-05 21:17:42,428 DEBUG   SenderThread:1819825 [sender.py:send():382] send: telemetry
+2024-01-05 21:17:42,428 DEBUG   SenderThread:1819825 [sender.py:send():382] send: config
+2024-01-05 21:17:42,949 INFO    wandb-upload_0:1819825 [upload_job.py:push():131] Uploaded file /tmp/tmplyr06jf3wandb/jqtlqnbd-wandb-metadata.json
+2024-01-05 21:17:43,219 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_created():271] file/dir created: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:43,623 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:17:45,220 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:47,221 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:48,626 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:17:49,222 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:51,223 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:53,224 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:53,662 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:17:55,225 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:57,021 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 21:17:57,022 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 21:17:57,059 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 21:17:57,226 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:17:58,701 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:17:59,227 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:01,228 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:03,228 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:03,718 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:05,229 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:07,230 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:08,732 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:09,231 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:09,231 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/config.yaml
+2024-01-05 21:18:11,232 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:12,021 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 21:18:12,022 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 21:18:12,026 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 21:18:13,233 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:14,023 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:15,234 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:17,234 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:19,033 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:19,235 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:21,236 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:23,237 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:24,041 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:25,238 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:27,021 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 21:18:27,022 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 21:18:27,026 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 21:18:27,239 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:29,056 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:29,240 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:31,241 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:33,242 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:34,075 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:35,243 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:37,244 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:39,098 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:39,245 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:39,516 DEBUG   SystemMonitor:1819825 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 21:18:39,519 DEBUG   SenderThread:1819825 [sender.py:send():382] send: stats
+2024-01-05 21:18:41,246 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:42,022 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 21:18:42,022 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 21:18:42,026 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 21:18:43,247 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:44,112 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:45,248 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:47,249 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:49,142 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:49,250 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:51,202 DEBUG   SenderThread:1819825 [sender.py:send():382] send: telemetry
+2024-01-05 21:18:51,203 DEBUG   SenderThread:1819825 [sender.py:send():382] send: exit
+2024-01-05 21:18:51,203 INFO    SenderThread:1819825 [sender.py:send_exit():589] handling exit code: 0
+2024-01-05 21:18:51,203 INFO    SenderThread:1819825 [sender.py:send_exit():591] handling runtime: 71
+2024-01-05 21:18:51,203 INFO    SenderThread:1819825 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 21:18:51,204 INFO    SenderThread:1819825 [sender.py:send_exit():597] send defer
+2024-01-05 21:18:51,204 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,204 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-05 21:18:51,205 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,205 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-05 21:18:51,205 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 1
+2024-01-05 21:18:51,205 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,205 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-05 21:18:51,205 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,205 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-05 21:18:51,205 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 2
+2024-01-05 21:18:51,206 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,206 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-05 21:18:51,206 INFO    HandlerThread:1819825 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 21:18:51,207 INFO    HandlerThread:1819825 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 21:18:51,207 DEBUG   SystemMonitor:1819825 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 21:18:51,207 INFO    HandlerThread:1819825 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 21:18:51,207 DEBUG   SystemMonitor:1819825 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 21:18:51,251 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:51,251 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_created():271] file/dir created: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/wandb-summary.json
+2024-01-05 21:18:51,296 INFO    HandlerThread:1819825 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-05 21:18:51,297 INFO    HandlerThread:1819825 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 21:18:51,297 INFO    HandlerThread:1819825 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 21:18:51,298 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,298 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-05 21:18:51,298 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 3
+2024-01-05 21:18:51,298 DEBUG   SenderThread:1819825 [sender.py:send():382] send: stats
+2024-01-05 21:18:51,299 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,299 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-05 21:18:51,300 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,300 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-05 21:18:51,300 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 4
+2024-01-05 21:18:51,300 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,300 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-05 21:18:51,301 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,301 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-05 21:18:51,301 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 5
+2024-01-05 21:18:51,301 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,301 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-05 21:18:51,302 DEBUG   SenderThread:1819825 [sender.py:send():382] send: summary
+2024-01-05 21:18:51,302 INFO    SenderThread:1819825 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 21:18:51,302 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,302 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-05 21:18:51,303 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 6
+2024-01-05 21:18:51,303 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,303 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-05 21:18:51,303 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,303 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-05 21:18:51,309 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 21:18:51,571 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 7
+2024-01-05 21:18:51,571 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:51,571 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-05 21:18:51,572 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:51,572 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-05 21:18:52,202 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 21:18:52,251 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/config.yaml
+2024-01-05 21:18:52,252 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/wandb-summary.json
+2024-01-05 21:18:53,171 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 8
+2024-01-05 21:18:53,171 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 21:18:53,172 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:53,172 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-05 21:18:53,173 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:53,173 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-05 21:18:53,173 INFO    SenderThread:1819825 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-05 21:18:53,174 INFO    SenderThread:1819825 [job_builder.py:_get_source_type():439] no source found
+2024-01-05 21:18:53,174 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 9
+2024-01-05 21:18:53,174 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:53,175 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-05 21:18:53,175 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:53,175 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-05 21:18:53,175 INFO    SenderThread:1819825 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-05 21:18:53,203 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 21:18:53,252 INFO    Thread-12 :1819825 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:53,253 INFO    SenderThread:1819825 [dir_watcher.py:finish():388] scan: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files
+2024-01-05 21:18:53,253 INFO    SenderThread:1819825 [dir_watcher.py:finish():402] scan save: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/requirements.txt requirements.txt
+2024-01-05 21:18:53,253 INFO    SenderThread:1819825 [dir_watcher.py:finish():402] scan save: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log output.log
+2024-01-05 21:18:53,254 INFO    SenderThread:1819825 [dir_watcher.py:finish():402] scan save: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/config.yaml config.yaml
+2024-01-05 21:18:53,263 INFO    SenderThread:1819825 [dir_watcher.py:finish():402] scan save: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/wandb-summary.json wandb-summary.json
+2024-01-05 21:18:53,269 INFO    SenderThread:1819825 [dir_watcher.py:finish():402] scan save: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/conda-environment.yaml conda-environment.yaml
+2024-01-05 21:18:53,269 INFO    SenderThread:1819825 [dir_watcher.py:finish():402] scan save: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/wandb-metadata.json wandb-metadata.json
+2024-01-05 21:18:53,274 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 10
+2024-01-05 21:18:53,279 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 21:18:53,279 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:53,280 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-05 21:18:53,280 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:53,281 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-05 21:18:53,281 INFO    SenderThread:1819825 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-05 21:18:53,992 INFO    wandb-upload_0:1819825 [upload_job.py:push():131] Uploaded file /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/requirements.txt
+2024-01-05 21:18:54,103 INFO    wandb-upload_1:1819825 [upload_job.py:push():131] Uploaded file /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/output.log
+2024-01-05 21:18:54,194 INFO    wandb-upload_3:1819825 [upload_job.py:push():131] Uploaded file /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/wandb-summary.json
+2024-01-05 21:18:54,204 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 21:18:54,205 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 21:18:54,214 INFO    wandb-upload_2:1819825 [upload_job.py:push():131] Uploaded file /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/config.yaml
+2024-01-05 21:18:54,276 INFO    wandb-upload_4:1819825 [upload_job.py:push():131] Uploaded file /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/files/conda-environment.yaml
+2024-01-05 21:18:54,476 INFO    Thread-11 :1819825 [sender.py:transition_state():617] send defer: 11
+2024-01-05 21:18:54,477 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:54,477 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-05 21:18:54,477 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:54,478 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-05 21:18:54,478 INFO    SenderThread:1819825 [file_pusher.py:join():181] waiting for file pusher
+2024-01-05 21:18:54,478 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 12
+2024-01-05 21:18:54,478 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:54,478 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-05 21:18:54,479 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:54,479 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-05 21:18:54,479 INFO    SenderThread:1819825 [file_stream.py:finish():595] file stream finish called
+2024-01-05 21:18:55,205 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 21:18:55,381 INFO    SenderThread:1819825 [file_stream.py:finish():599] file stream finish is done
+2024-01-05 21:18:55,382 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 13
+2024-01-05 21:18:55,382 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 21:18:55,382 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:55,383 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-05 21:18:55,383 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:55,383 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-05 21:18:55,384 INFO    SenderThread:1819825 [sender.py:transition_state():617] send defer: 14
+2024-01-05 21:18:55,384 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 21:18:55,385 INFO    HandlerThread:1819825 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-05 21:18:55,385 DEBUG   SenderThread:1819825 [sender.py:send():382] send: final
+2024-01-05 21:18:55,385 DEBUG   SenderThread:1819825 [sender.py:send():382] send: footer
+2024-01-05 21:18:55,385 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: defer
+2024-01-05 21:18:55,386 INFO    SenderThread:1819825 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-05 21:18:55,387 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 21:18:55,388 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 21:18:55,390 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 21:18:55,392 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: server_info
+2024-01-05 21:18:55,392 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: server_info
+2024-01-05 21:18:55,436 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-05 21:18:55,436 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-05 21:18:55,436 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: job_info
+2024-01-05 21:18:55,619 DEBUG   SenderThread:1819825 [sender.py:send_request():409] send_request: job_info
+2024-01-05 21:18:55,620 DEBUG   HandlerThread:1819825 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-05 21:18:55,621 INFO    HandlerThread:1819825 [handler.py:finish():866] shutting down handler
+2024-01-05 21:18:56,437 INFO    WriterThread:1819825 [datastore.py:close():294] close: /home/stu5/ranshui/FasterRCNN/wandb/run-20240105_211738-1omti9lq/run-1omti9lq.wandb
+2024-01-05 21:18:56,619 INFO    SenderThread:1819825 [sender.py:finish():1548] shutting down sender
+2024-01-05 21:18:56,619 INFO    SenderThread:1819825 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-05 21:18:56,619 INFO    SenderThread:1819825 [file_pusher.py:join():181] waiting for file pusher

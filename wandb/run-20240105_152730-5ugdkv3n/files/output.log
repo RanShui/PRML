@@ -1,0 +1,142 @@
+Loaded IMAGENET1K_V1 pre-trained weights for Torchvision ResNet101 backbone
+Error(s) in loading state_dict for FasterRCNNModel:
+	Missing key(s) in state_dict: "_stage1_feature_extractor._feature_extractor.6.6.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.6.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.6.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.6.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.6.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.6.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.6.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.6.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.6.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.6.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.6.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.6.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.6.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.6.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.6.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.7.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.7.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.7.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.7.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.7.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.7.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.7.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.7.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.7.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.7.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.7.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.7.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.7.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.7.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.7.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.8.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.8.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.8.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.8.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.8.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.8.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.8.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.8.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.8.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.8.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.8.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.8.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.8.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.8.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.8.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.9.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.9.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.9.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.9.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.9.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.9.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.9.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.9.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.9.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.9.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.9.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.9.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.9.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.9.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.9.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.10.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.10.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.10.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.10.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.10.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.10.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.10.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.10.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.10.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.10.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.10.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.10.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.10.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.10.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.10.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.11.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.11.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.11.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.11.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.11.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.11.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.11.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.11.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.11.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.11.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.11.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.11.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.11.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.11.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.11.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.12.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.12.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.12.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.12.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.12.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.12.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.12.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.12.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.12.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.12.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.12.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.12.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.12.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.12.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.12.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.13.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.13.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.13.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.13.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.13.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.13.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.13.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.13.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.13.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.13.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.13.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.13.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.13.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.13.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.13.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.14.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.14.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.14.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.14.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.14.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.14.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.14.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.14.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.14.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.14.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.14.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.14.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.14.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.14.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.14.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.15.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.15.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.15.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.15.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.15.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.15.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.15.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.15.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.15.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.15.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.15.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.15.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.15.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.15.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.15.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.16.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.16.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.16.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.16.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.16.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.16.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.16.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.16.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.16.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.16.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.16.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.16.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.16.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.16.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.16.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.17.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.17.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.17.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.17.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.17.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.17.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.17.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.17.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.17.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.17.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.17.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.17.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.17.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.17.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.17.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.18.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.18.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.18.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.18.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.18.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.18.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.18.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.18.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.18.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.18.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.18.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.18.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.18.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.18.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.18.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.19.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.19.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.19.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.19.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.19.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.19.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.19.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.19.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.19.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.19.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.19.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.19.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.19.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.19.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.19.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.20.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.20.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.20.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.20.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.20.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.20.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.20.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.20.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.20.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.20.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.20.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.20.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.20.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.20.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.20.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.21.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.21.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.21.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.21.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.21.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.21.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.21.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.21.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.21.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.21.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.21.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.21.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.21.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.21.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.21.bn3.running_var", "_stage1_feature_extractor._feature_extractor.6.22.conv1.weight", "_stage1_feature_extractor._feature_extractor.6.22.bn1.weight", "_stage1_feature_extractor._feature_extractor.6.22.bn1.bias", "_stage1_feature_extractor._feature_extractor.6.22.bn1.running_mean", "_stage1_feature_extractor._feature_extractor.6.22.bn1.running_var", "_stage1_feature_extractor._feature_extractor.6.22.conv2.weight", "_stage1_feature_extractor._feature_extractor.6.22.bn2.weight", "_stage1_feature_extractor._feature_extractor.6.22.bn2.bias", "_stage1_feature_extractor._feature_extractor.6.22.bn2.running_mean", "_stage1_feature_extractor._feature_extractor.6.22.bn2.running_var", "_stage1_feature_extractor._feature_extractor.6.22.conv3.weight", "_stage1_feature_extractor._feature_extractor.6.22.bn3.weight", "_stage1_feature_extractor._feature_extractor.6.22.bn3.bias", "_stage1_feature_extractor._feature_extractor.6.22.bn3.running_mean", "_stage1_feature_extractor._feature_extractor.6.22.bn3.running_var".
+Training Parameters
+-------------------
+Initial weights   : fasterrcnn_pytorch_tmp.pth
+Dataset           : /home/stu5/ranshui/FasterRCNN/VOC
+Training split    : train
+Evaluation split  : test
+Backbone          : resnet101
+Epochs            : 5
+Learning rate     : 0.000100
+Momentum          : 0.900000
+Weight decay      : 0.000500
+Dropout           : 0.000000
+Augmentation      : enabled
+Edge proposals    : included
+CSV log           : none
+Checkpoints       : disabled
+Final weights file: none
+Best weights file : fasterrcnn_pytorch_resnet50.pth
+Epoch 1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

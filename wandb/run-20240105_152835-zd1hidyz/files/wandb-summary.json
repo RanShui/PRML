@@ -1,0 +1,1 @@
+{"iteration": 8, "detector_class_loss": 1.6442526392638683, "detector_regr_loss": NaN, "rpn_class_loss": 0.6489002332091331, "rpn_regr_loss": 0.02827544359024614, "total_loss": NaN, "_timestamp": 1704439725.6706405, "_runtime": 9.769344568252563, "_step": 8, "_wandb": {"runtime": 8}}

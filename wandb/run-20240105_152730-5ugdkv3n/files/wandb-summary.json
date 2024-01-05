@@ -1,0 +1,1 @@
+{"iteration": 1474, "detector_class_loss": 0.14753064045428552, "detector_regr_loss": 0.13623642794915197, "rpn_class_loss": 0.09812911515967009, "rpn_regr_loss": 0.04661713413118167, "total_loss": 0.42851331769428924, "_timestamp": 1704439896.3437579, "_runtime": 246.28108596801758, "_step": 1474}

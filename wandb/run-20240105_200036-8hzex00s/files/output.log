@@ -1,0 +1,1209 @@
+Loaded IMAGENET1K_V1 pre-trained weights for Torchvision ResNet50 backbone
+Training Parameters
+-------------------
+Initial weights   : IMAGENET1K_V1
+Dataset           : /home/stu5/ranshui/FasterRCNN/VOC
+Training split    : train
+Evaluation split  : test
+Backbone          : resnet50
+Epochs            : 20
+Learning rate     : 0.001000
+Momentum          : 0.900000
+Weight decay      : 0.000500
+Augmentation      : enabled
+Edge proposals    : included
+CSV log           : none
+Checkpoints       : disabled
+Final weights file: none
+Best weights file : fasterrcnn_pytorch_tmp1.pth
+Epoch 1/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [01:51<00:00, 13.86it/s, detector_class_loss=0.4511, detector_regr_loss=0.2991, rpn_class_loss=0.2884, rpn_regr_loss=0.0608, total_loss=1.10]
+  2%|██▊                                                                                                                                                      | 18/1000 [00:00<00:42, 23.18it/s]
+
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:35, 23.42it/s]
+  2%|▌                                   | 24/1541 [00:01<01:37, 15.63it/s, detector_class_loss=0.2673, detector_regr_loss=0.2486, rpn_class_loss=0.1815, rpn_regr_loss=0.0457, total_loss=0.74]
+Mean Average Precision = 21.55%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [01:40<00:00, 15.27it/s, detector_class_loss=0.3427, detector_regr_loss=0.2997, rpn_class_loss=0.1963, rpn_regr_loss=0.0575, total_loss=0.90]
+  2%|██▊                                                                                                                                                      | 18/1000 [00:00<00:39, 24.61it/s]
+
+
+
+ 17%|█████████████████████████▌                                                                                                                              | 168/1000 [00:06<00:34, 23.88it/s]
+Mean Average Precision = 37.00%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:33, 24.49it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████▉| 1536/1541 [01:40<00:00, 15.12it/s, detector_class_loss=0.2768, detector_regr_loss=0.2822, rpn_class_loss=0.1836, rpn_regr_loss=0.0562, total_loss=0.80]
+100%|██████████████████████████████████| 1541/1541 [01:40<00:00, 15.36it/s, detector_class_loss=0.2765, detector_regr_loss=0.2820, rpn_class_loss=0.1833, rpn_regr_loss=0.0561, total_loss=0.80]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.66it/s]
+  1%|▎                                   | 12/1541 [00:00<01:37, 15.68it/s, detector_class_loss=0.2880, detector_regr_loss=0.3254, rpn_class_loss=0.1790, rpn_regr_loss=0.0456, total_loss=0.84]
+Mean Average Precision = 39.57%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [01:40<00:00, 15.40it/s, detector_class_loss=0.2309, detector_regr_loss=0.2681, rpn_class_loss=0.1724, rpn_regr_loss=0.0552, total_loss=0.73]
+  2%|███▋                                                                                                                                                     | 24/1000 [00:00<00:37, 25.93it/s]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:32, 25.30it/s]
+  0%|                                     | 2/1541 [00:00<01:40, 15.32it/s, detector_class_loss=0.3927, detector_regr_loss=0.3289, rpn_class_loss=0.1196, rpn_regr_loss=0.0483, total_loss=0.89]
+Mean Average Precision = 40.88%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [01:40<00:00, 15.31it/s, detector_class_loss=0.2039, detector_regr_loss=0.2562, rpn_class_loss=0.1632, rpn_regr_loss=0.0539, total_loss=0.68]
+  4%|██████▍                                                                                                                                                  | 42/1000 [00:01<00:37, 25.59it/s]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:32, 25.33it/s]
+  1%|▎                                   | 14/1541 [00:00<01:38, 15.52it/s, detector_class_loss=0.2200, detector_regr_loss=0.3362, rpn_class_loss=0.1973, rpn_regr_loss=0.0368, total_loss=0.79]
+Mean Average Precision = 50.59%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [01:40<00:00, 15.33it/s, detector_class_loss=0.1788, detector_regr_loss=0.2466, rpn_class_loss=0.1514, rpn_regr_loss=0.0529, total_loss=0.63]
+  2%|██▎                                                                                                                                                      | 15/1000 [00:00<00:37, 26.16it/s]
+
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:32, 25.78it/s]
+  1%|▌                                   | 22/1541 [00:01<01:49, 13.91it/s, detector_class_loss=0.2074, detector_regr_loss=0.2872, rpn_class_loss=0.1137, rpn_regr_loss=0.0465, total_loss=0.65]
+Mean Average Precision = 46.93%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [01:40<00:00, 15.38it/s, detector_class_loss=0.1639, detector_regr_loss=0.2305, rpn_class_loss=0.1388, rpn_regr_loss=0.0512, total_loss=0.58]
+  4%|██████▉                                                                                                                                                  | 45/1000 [00:01<00:37, 25.18it/s]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.84it/s]
+  1%|▎                                   | 12/1541 [00:00<01:42, 14.85it/s, detector_class_loss=0.1684, detector_regr_loss=0.2382, rpn_class_loss=0.2004, rpn_regr_loss=0.1332, total_loss=0.74]
+Mean Average Precision = 61.39%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████▌| 1522/1541 [02:47<00:01, 15.69it/s, detector_class_loss=0.1539, detector_regr_loss=0.2224, rpn_class_loss=0.1266, rpn_regr_loss=0.0501, total_loss=0.55]
+100%|██████████████████████████████████| 1541/1541 [02:48<00:00,  9.15it/s, detector_class_loss=0.1538, detector_regr_loss=0.2223, rpn_class_loss=0.1270, rpn_regr_loss=0.0503, total_loss=0.55]
+
+
+
+ 17%|█████████████████████████▉                                                                                                                              | 171/1000 [00:06<00:33, 25.01it/s]
+Mean Average Precision = 55.70%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.86it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████▊| 1530/1541 [04:44<00:04,  2.46it/s, detector_class_loss=0.1417, detector_regr_loss=0.2168, rpn_class_loss=0.1165, rpn_regr_loss=0.0491, total_loss=0.52]
+100%|██████████████████████████████████| 1541/1541 [04:44<00:00,  5.41it/s, detector_class_loss=0.1416, detector_regr_loss=0.2168, rpn_class_loss=0.1164, rpn_regr_loss=0.0490, total_loss=0.52]
+
+
+ 14%|████████████████████▌                                                                                                                                   | 135/1000 [00:05<00:36, 23.91it/s]
+Mean Average Precision = 51.20%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.90it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████▊| 1533/1541 [04:04<00:00, 15.66it/s, detector_class_loss=0.1328, detector_regr_loss=0.2004, rpn_class_loss=0.1044, rpn_regr_loss=0.0480, total_loss=0.49]
+100%|██████████████████████████████████| 1541/1541 [04:05<00:00,  6.28it/s, detector_class_loss=0.1329, detector_regr_loss=0.2006, rpn_class_loss=0.1046, rpn_regr_loss=0.0480, total_loss=0.49]
+
+
+ 14%|████████████████████▉                                                                                                                                   | 138/1000 [00:05<00:35, 24.58it/s]
+Mean Average Precision = 54.99%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.84it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████▊| 1531/1541 [04:15<00:00, 15.34it/s, detector_class_loss=0.1295, detector_regr_loss=0.1955, rpn_class_loss=0.0961, rpn_regr_loss=0.0454, total_loss=0.47]
+100%|██████████████████████████████████| 1541/1541 [04:15<00:00,  6.03it/s, detector_class_loss=0.1295, detector_regr_loss=0.1954, rpn_class_loss=0.0962, rpn_regr_loss=0.0459, total_loss=0.47]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.70it/s]
+  1%|▏                                    | 8/1541 [00:00<01:38, 15.51it/s, detector_class_loss=0.1530, detector_regr_loss=0.1864, rpn_class_loss=0.0501, rpn_regr_loss=0.0284, total_loss=0.42]
+Mean Average Precision = 53.52%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████▊| 1532/1541 [02:16<00:20,  2.27s/it, detector_class_loss=0.1106, detector_regr_loss=0.1815, rpn_class_loss=0.0867, rpn_regr_loss=0.0453, total_loss=0.42]
+100%|██████████████████████████████████| 1541/1541 [02:17<00:00, 11.22it/s, detector_class_loss=0.1106, detector_regr_loss=0.1815, rpn_class_loss=0.0866, rpn_regr_loss=0.0452, total_loss=0.42]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.66it/s]
+  1%|▏                                    | 8/1541 [00:00<01:39, 15.39it/s, detector_class_loss=0.1208, detector_regr_loss=0.1755, rpn_class_loss=0.0826, rpn_regr_loss=0.0631, total_loss=0.44]
+Mean Average Precision = 48.98%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████████████████████████████▊| 1533/1541 [04:04<00:00, 15.62it/s, detector_class_loss=0.1084, detector_regr_loss=0.1716, rpn_class_loss=0.0777, rpn_regr_loss=0.0442, total_loss=0.40]
+100%|██████████████████████████████████| 1541/1541 [04:05<00:00,  6.28it/s, detector_class_loss=0.1083, detector_regr_loss=0.1718, rpn_class_loss=0.0779, rpn_regr_loss=0.0442, total_loss=0.40]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:34, 24.32it/s]
+  1%|▏                                    | 8/1541 [00:00<01:36, 15.92it/s, detector_class_loss=0.0954, detector_regr_loss=0.2058, rpn_class_loss=0.0608, rpn_regr_loss=0.0321, total_loss=0.39]
+Mean Average Precision = 51.79%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [04:44<00:00,  5.41it/s, detector_class_loss=0.1088, detector_regr_loss=0.1684, rpn_class_loss=0.0739, rpn_regr_loss=0.0447, total_loss=0.40]
+  1%|█▊                                                                                                                                                       | 12/1000 [00:00<00:40, 24.32it/s]
+
+
+
+ 16%|████████████████████████▏                                                                                                                               | 159/1000 [00:06<00:33, 24.79it/s]
+Mean Average Precision = 51.96%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:34, 24.26it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [04:05<00:00,  6.28it/s, detector_class_loss=0.1059, detector_regr_loss=0.1574, rpn_class_loss=0.0674, rpn_regr_loss=0.0440, total_loss=0.37]
+  1%|█▍                                                                                                                                                        | 9/1000 [00:00<00:39, 25.07it/s]
+
+
+
+ 14%|█████████████████████▉                                                                                                                                  | 144/1000 [00:05<00:34, 24.82it/s]
+Mean Average Precision = 55.37%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:33, 24.47it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [02:12<00:00, 11.61it/s, detector_class_loss=0.0968, detector_regr_loss=0.1473, rpn_class_loss=0.0636, rpn_regr_loss=0.0417, total_loss=0.35]
+  1%|█▊                                                                                                                                                       | 12/1000 [00:00<00:40, 24.55it/s]
+
+
+
+ 16%|████████████████████████▏                                                                                                                               | 159/1000 [00:06<00:34, 24.58it/s]
+Mean Average Precision = 52.90%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:34, 24.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [03:26<00:00,  7.45it/s, detector_class_loss=0.0937, detector_regr_loss=0.1395, rpn_class_loss=0.0570, rpn_regr_loss=0.0418, total_loss=0.33]
+  2%|███▏                                                                                                                                                     | 21/1000 [00:00<00:38, 25.25it/s]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:06<00:33, 24.72it/s]
+  0%|                                                          | 0/1541 [00:00<?, ?it/s, detector_class_loss=inf, detector_regr_loss=inf, rpn_class_loss=inf, rpn_regr_loss=inf, total_loss=inf]
+Mean Average Precision = 56.64%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████▊| 1535/1541 [04:44<00:00, 14.55it/s, detector_class_loss=0.0919, detector_regr_loss=0.1335, rpn_class_loss=0.0529, rpn_regr_loss=0.0407, total_loss=0.32]
+100%|██████████████████████████████████| 1541/1541 [04:44<00:00,  5.41it/s, detector_class_loss=0.0919, detector_regr_loss=0.1335, rpn_class_loss=0.0529, rpn_regr_loss=0.0406, total_loss=0.32]
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:34, 24.10it/s]
+  1%|▏                                   | 10/1541 [00:00<01:39, 15.40it/s, detector_class_loss=0.0794, detector_regr_loss=0.1352, rpn_class_loss=0.0417, rpn_regr_loss=0.0300, total_loss=0.29]
+Mean Average Precision = 56.76%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 98%|█████████████████████████████████▍| 1517/1541 [13:45<00:01, 15.00it/s, detector_class_loss=0.0896, detector_regr_loss=0.1293, rpn_class_loss=0.0503, rpn_regr_loss=0.0411, total_loss=0.31]
+100%|██████████████████████████████████| 1541/1541 [13:47<00:00,  1.86it/s, detector_class_loss=0.0896, detector_regr_loss=0.1295, rpn_class_loss=0.0502, rpn_regr_loss=0.0409, total_loss=0.31]
+
+
+
+ 16%|████████████████████████▏                                                                                                                               | 159/1000 [00:06<00:34, 24.58it/s]
+Mean Average Precision = 54.94%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:34, 24.21it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 98%|█████████████████████████████████▍| 1515/1541 [02:09<00:01, 15.16it/s, detector_class_loss=0.0819, detector_regr_loss=0.1242, rpn_class_loss=0.0473, rpn_regr_loss=0.0395, total_loss=0.29]
+
+100%|██████████████████████████████████| 1541/1541 [02:11<00:00, 11.70it/s, detector_class_loss=0.0820, detector_regr_loss=0.1249, rpn_class_loss=0.0472, rpn_regr_loss=0.0395, total_loss=0.29]
+
+
+ 14%|█████████████████████▉                                                                                                                                  | 144/1000 [00:05<00:35, 24.41it/s]
+Mean Average Precision = 58.39%
+Saved best model weights (Mean Average Precision = 61.39%) to 'fasterrcnn_pytorch_tmp1.pth'
+Evaluating best model on all samples in 'test'...
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:34, 24.17it/s]
+
+
+
+
+ 95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉        | 163/172 [00:36<00:15,  1.68s/it]
+Average Precisions
+***********************************
+person: 58.4%
+***********************************
+
+ 99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 171/172 [00:37<00:00,  4.60it/s]

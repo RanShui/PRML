@@ -1,0 +1,350 @@
+Loaded IMAGENET1K_V1 pre-trained weights for Torchvision ResNet101 backbone
+Training Parameters
+-------------------
+Initial weights   : IMAGENET1K_V1
+Dataset           : /home/stu5/ranshui/FasterRCNN/VOC
+Training split    : train
+Evaluation split  : test
+Backbone          : resnet101
+Epochs            : 20
+Learning rate     : 0.001000
+Momentum          : 0.900000
+Weight decay      : 0.000500
+Augmentation      : enabled
+Edge proposals    : included
+CSV log           : none
+Checkpoints       : disabled
+Final weights file: none
+Best weights file : fasterrcnn_pytorch_tmp.pth
+Epoch 1/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [02:19<00:00, 11.08it/s, detector_class_loss=0.4522, detector_regr_loss=0.3101, rpn_class_loss=0.2397, rpn_regr_loss=0.0613, total_loss=1.06]
+  2%|███                                                                                                                                                      | 20/1000 [00:01<00:47, 20.67it/s]
+
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:08<00:40, 20.67it/s]
+  1%|▏                                    | 8/1541 [00:00<02:07, 12.03it/s, detector_class_loss=0.5028, detector_regr_loss=0.4068, rpn_class_loss=0.2512, rpn_regr_loss=0.0406, total_loss=1.20]
+Mean Average Precision = 28.06%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████▉| 1536/1541 [03:02<00:00, 12.01it/s, detector_class_loss=0.3199, detector_regr_loss=0.3071, rpn_class_loss=0.1828, rpn_regr_loss=0.0582, total_loss=0.87]
+100%|██████████████████████████████████| 1541/1541 [03:03<00:00,  8.41it/s, detector_class_loss=0.3195, detector_regr_loss=0.3068, rpn_class_loss=0.1827, rpn_regr_loss=0.0581, total_loss=0.87]
+
+
+
+ 17%|█████████████████████████▍                                                                                                                              | 167/1000 [00:07<00:38, 21.58it/s]
+Mean Average Precision = 43.49%
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:37, 21.85it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [04:07<00:00,  6.23it/s, detector_class_loss=0.2548, detector_regr_loss=0.2935, rpn_class_loss=0.1602, rpn_regr_loss=0.0560, total_loss=0.76]
+  2%|██▊                                                                                                                                                      | 18/1000 [00:00<00:41, 23.38it/s]
+
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:36, 22.56it/s]
+  1%|▎                                   | 14/1541 [00:01<02:06, 12.05it/s, detector_class_loss=0.1274, detector_regr_loss=0.1989, rpn_class_loss=0.1080, rpn_regr_loss=0.0274, total_loss=0.46]
+Mean Average Precision = 54.52%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████| 1541/1541 [04:41<00:00,  5.48it/s, detector_class_loss=0.2050, detector_regr_loss=0.2734, rpn_class_loss=0.1387, rpn_regr_loss=0.0518, total_loss=0.67]
+  0%|▎                                                                                                                                                         | 2/1000 [00:00<00:51, 19.41it/s]
+
+
+
+ 17%|██████████████████████████▏                                                                                                                             | 172/1000 [00:07<00:37, 22.11it/s]
+  0%|                                     | 4/1541 [00:00<01:59, 12.89it/s, detector_class_loss=0.2227, detector_regr_loss=0.2645, rpn_class_loss=0.0963, rpn_regr_loss=0.0429, total_loss=0.63]
+Mean Average Precision = 57.32%
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 20%|██████▉                            | 305/1541 [00:31<02:09,  9.56it/s, detector_class_loss=0.1970, detector_regr_loss=0.2721, rpn_class_loss=0.1179, rpn_regr_loss=0.0506, total_loss=0.64]
+Traceback (most recent call last):
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/stu5/ranshui/FasterRCNN/pytorch/FasterRCNN/__main__.py", line 319, in <module>
+    train(model = model)
+  File "/home/stu5/ranshui/FasterRCNN/pytorch/FasterRCNN/__main__.py", line 171, in train
+    loss = model.train_step(  # don't retain any tensors we don't need (helps memory usage)
+  File "/home/stu5/ranshui/FasterRCNN/pytorch/FasterRCNN/models/faster_rcnn.py", line 310, in train_step
+    optimizer.step()
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/optim/optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/optim/optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/optim/sgd.py", line 76, in step
+    sgd(params_with_grad,
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/optim/sgd.py", line 222, in sgd
+    func(params,
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/optim/sgd.py", line 291, in _multi_tensor_sgd
+    device_grads = torch._foreach_add(device_grads, device_params, alpha=weight_decay)
+KeyboardInterrupt

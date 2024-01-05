@@ -1,0 +1,52 @@
+Loaded IMAGENET1K_V1 pre-trained weights for Torchvision ResNet101 backbone
+Training Parameters
+-------------------
+Initial weights   : IMAGENET1K_V1
+Dataset           : /home/stu5/ranshui/FasterRCNN/VOC
+Training split    : train
+Evaluation split  : test
+Backbone          : resnet101
+Epochs            : 20
+Learning rate     : 0.001000
+Momentum          : 0.900000
+Weight decay      : 0.000500
+Augmentation      : enabled
+Edge proposals    : included
+CSV log           : none
+Checkpoints       : disabled
+Final weights file: none
+Best weights file : fasterrcnn_pytorch_tmp.pth
+Epoch 1/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 24%|████████▋                            | 363/1541 [00:34<01:51, 10.55it/s, detector_class_loss=0.5677, detector_regr_loss=0.3106, rpn_class_loss=0.3509, rpn_regr_loss=0.0654, total_loss=1.29]
+Traceback (most recent call last):
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/stu5/ranshui/FasterRCNN/pytorch/FasterRCNN/__main__.py", line 319, in <module>
+    train(model = model)
+  File "/home/stu5/ranshui/FasterRCNN/pytorch/FasterRCNN/__main__.py", line 171, in train
+    loss = model.train_step(  # don't retain any tensors we don't need (helps memory usage)
+  File "/home/stu5/ranshui/FasterRCNN/pytorch/FasterRCNN/models/faster_rcnn.py", line 309, in train_step
+    total_loss.backward()
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/stu5/anaconda3/envs/prml/lib/python3.9/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

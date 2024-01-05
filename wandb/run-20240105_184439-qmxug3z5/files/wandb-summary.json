@@ -1,0 +1,1 @@
+{"iteration": 363, "detector_class_loss": 0.5677225326211, "detector_regr_loss": 0.31056473462104395, "rpn_class_loss": 0.3508668091897301, "rpn_regr_loss": 0.06538495104121732, "total_loss": 1.2945390274730912, "_timestamp": 1704451519.4244432, "_runtime": 39.59822416305542, "_step": 363, "_wandb": {"runtime": 38}}

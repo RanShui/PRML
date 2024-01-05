@@ -1,0 +1,105 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.18
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1704455954.838347
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 23
+      4: 3.9.18
+      5: 0.16.1
+      8:
+      - 5
+      13: linux-x86_64
+train:
+  desc: null
+  value: false
+eval:
+  desc: null
+  value: false
+predict:
+  desc: null
+  value: null
+predict_to_file:
+  desc: null
+  value: /home/stu5/ranshui/FasterRCNN/VOC/JPEGImages
+load_from:
+  desc: null
+  value: fasterrcnn_pytorch_tmp.pth
+backbone:
+  desc: null
+  value: resnet50
+save_to:
+  desc: null
+  value: null
+save_best_to:
+  desc: null
+  value: null
+dataset_dir:
+  desc: null
+  value: /home/stu5/ranshui/FasterRCNN/VOC
+train_split:
+  desc: null
+  value: train
+eval_split:
+  desc: null
+  value: test
+cache_images:
+  desc: null
+  value: false
+periodic_eval_samples:
+  desc: null
+  value: 1000
+checkpoint_dir:
+  desc: null
+  value: null
+plot:
+  desc: null
+  value: false
+log_csv:
+  desc: null
+  value: null
+epochs:
+  desc: null
+  value: 1
+learning_rate:
+  desc: null
+  value: 0.001
+momentum:
+  desc: null
+  value: 0.9
+weight_decay:
+  desc: null
+  value: 0.0005
+no_augment:
+  desc: null
+  value: false
+exclude_edge_proposals:
+  desc: null
+  value: false
+dump_anchors:
+  desc: null
+  value: null
+profile_cuda_memory:
+  desc: null
+  value: false
+project:
+  desc: null
+  value: FasterRCNN-ranshui
+name:
+  desc: null
+  value: null
